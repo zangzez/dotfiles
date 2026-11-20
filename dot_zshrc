@@ -1,0 +1,19 @@
+
+
+
+
+for file in ~/.zshrc.d/**/*.zsh(N); do
+  source "$file"
+done
+
+
+# 在多个 shell 会话之间共享历史记录
+setopt SHARE_HISTORY
+
+
+# 放在最后！！  zsh-syntax-highlighting
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+
+
